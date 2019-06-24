@@ -1,0 +1,17 @@
+.column-left{ 
+    float: left; 
+    width: 33.333%;
+    background: url(/assets/images/school.png) }
+
+.column-center{ 
+display: inline-block; 
+width: 33.333%;
+background: red; 
+text-align: center;
+padding-bottom: 30px;}
+
+
+.column-right{ 
+    float: right; 
+    width: 33.333%; }
+
