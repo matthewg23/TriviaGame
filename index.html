@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Intelligence Trivia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href='assets/css/style.css'>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/rjd2wjo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
+
 <body>
   
-   
-
-
     <div class="container">
         <div class="row">
-            
-        
-            <div class="column-center">
-                    <h2>Intelligence Quiz</h2>
-                    <button id=start>Click here to start quiz!</button>
+            <div class="col-md-2 column-left"></div>
+            <div class="col-md-8 column-center">
+                    <h2>-----   Intelligence Quiz   -----</h2>
+                    <div class="wrapper">	
+                        <div id= "timeleft"></div>
+                        <div id= "questionblock"></div>
+                        <div id= "answerblock"></div>
+                        <button class ="btn btn-success" id ="start">Start Game</button>
+                      <br>
+                      <br>
+                        <button class="btn btn-success" id="reset">Play Again?</button>
+                  </div>
+                </div>
+
             </div>
-            <div class="column-left"></div>
-            <div class="column-right"></div>
-    </div></div>
+            <div class="col-md-2 column-right"></div>
+    </div>
+    
+
+
+</div>
    
 </body>
+
 </html>
