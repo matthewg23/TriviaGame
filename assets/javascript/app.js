@@ -2,7 +2,7 @@ $(document).ready(function () {
   var options = [
     {
       question: "How many 10 cent stamps are there in a dozen?", 
-      choice: ["10", "12", "120", "120"],
+      choice: ["10", "12", "120", "20"],
       answer: 2,
      },
      {
